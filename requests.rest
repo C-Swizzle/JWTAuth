@@ -1,0 +1,10 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username":"vverma"
+}
+
+### 
+GET http://localhost:8080/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZ2ZXJtYSIsImlhdCI6MTYyODA5NzgzMH0.Zp-9Q9x3AF2TyhEATPc7mErj4xCIudKny2keOzlY-TA
